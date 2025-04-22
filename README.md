@@ -17,3 +17,16 @@ Supports simultaneous hardware/software markers for high‑precision MoBI experi
 git clone https://github.com/your-org/dsi24-qtm-trigger-sync.git
 cd dsi24-qtm-trigger-sync
 pip install -r requirements.txt
+```
+## Usage
+
+```bash
+python -m triggersync.main \
+  --host 127.0.0.1 \
+  --duration 15 \
+  --subject 01 \
+  --task walking \
+  --bids_root /data/BIDS \
+  --triggers
+```
+

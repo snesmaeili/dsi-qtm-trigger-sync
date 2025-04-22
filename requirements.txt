@@ -1,0 +1,4 @@
+qtm-rt>=0.2.0
+psychopy>=2022.1.0
+mne-bids>=0.12
+pybids>=0.15
