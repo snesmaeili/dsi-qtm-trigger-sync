@@ -1,4 +1,4 @@
-# dsi24-qtm-trigger-sync
+# dsi-qtm-trigger-sync
 
 Synchronize parallel‑port triggers for the DSI‑24 trigger hub with event markers for Qualisys QTM.  
 Supports simultaneous hardware/software markers for high‑precision MoBI experiments.
