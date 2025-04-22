@@ -45,6 +45,6 @@ class QTMClient:
         await self.conn.save(filename, overwrite=True)
 
     async def disconnect(self):
-        await self.conn.close()
         await self.conn.release_control()
+        await self.conn.close()
         self.conn.disconnect()
